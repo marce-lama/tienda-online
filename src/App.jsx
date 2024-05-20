@@ -1,8 +1,14 @@
+import Navbar from "./components/layout/navbar/Navbar"
+import ItemDetailContainer from "./components/page/itemDetail/ItemDetailContainer"
+import ItemListContainer from "./components/page/itemList/ItemListContainer"
+
 function App() {
 
   return (
     <div>
-      <h1>Este es el APP</h1>
+      <Navbar />
+      <ItemListContainer />
+      <ItemDetailContainer />
     </div>
   )
 }

@@ -1,9 +1,7 @@
-import CounterContainer from "../../common/counter/CounterContainer"
+import CounterContainer from "../../common/counter/CounterContainer";
 
-const ItemDetail = ({agregarAlCarrito}) => {
-  return (
-    <CounterContainer agregarAlCarrito={agregarAlCarrito}/>
-  )
-}
+const ItemDetail = ({ agregarAlCarrito }) => {
+  return <CounterContainer agregarAlCarrito={agregarAlCarrito} />;
+};
 
-export default ItemDetail
+export default ItemDetail;

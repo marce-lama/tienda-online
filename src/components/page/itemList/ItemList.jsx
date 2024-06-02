@@ -1,5 +1,5 @@
 import ProductCard from "../../common/productCard/ProductCard";
-import "./ItemList.css"
+import "./ItemList.css";
 
 const ItemList = ({ items }) => {
   console.log("Estan llegando los items", items);
@@ -13,5 +13,3 @@ const ItemList = ({ items }) => {
 };
 
 export default ItemList;
-
-

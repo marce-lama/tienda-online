@@ -2,7 +2,11 @@ import ProductCard from "../../common/productCard/ProductCard";
 import "./ItemList.css";
 
 const ItemList = ({ items }) => {
-  console.log("Estan llegando los items", items);
+  console.log(
+    "Este Console.log viene de ItemLists =>",
+    "Estan llegando los items",
+    items
+  );
   return (
     <div className="productCardContainer">
       {items.map((item) => {

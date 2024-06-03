@@ -1,16 +1,18 @@
 .navContainer {
-    width: 100%;
-    background-color: skyblue;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 30px;
-    padding-left: 30px;
+  width: 100%;
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .containerCategories {
-    display: flex;
-    list-style: none;
-    gap: 30px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: yellow;
+  font-family: fantasy;
 }

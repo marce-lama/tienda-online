@@ -17,14 +17,14 @@ const ProductCard = ({ item }) => {
           <CardMedia
             component="img"
             height="200"
-            image={item.image} style={{maxWidth:150, maxHeight:250, marginLeft:"auto", marginRight:"auto", marginTop: 20, objectFit:"contain"}}
+            image={item.imagen1} style={{maxWidth:345, maxHeight:304, marginLeft:"auto", marginRight:"auto", marginTop: 20, objectFit:"contain"}}
             alt="green iguana"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" style={{fontSize: "1em", textAlign: "center", fontWeight:"bold"}}>
-              {item.title}
+              {item.marca}
             </Typography>
-            <Typography style={{textAlign:"center", color:"red", fontWeight:"bold", fontSize:20}}>${item.price}</Typography>
+            <Typography style={{textAlign:"center", color:"red", fontWeight:"bold", fontSize:20}}>${item.precio}</Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
